@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+}
+
+.website-content {
+    display: flex;
+    height: 100vh;
+
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.content-text {
+    background: #121214;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-left: 30px;
+
+    max-width: 389px;
+    height: 94px;
+}
+
+h2 {
+    color: #08c05e;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+
+    margin-top: 89px;
+    margin-left: 36px;
+}
+
+h3 {
+    margin-top: 8.56px;
+    margin-left: 36px;
+
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.about {
+    width: 647px;
+}
+
+.about-text {
+    font-family: 'League Spartan', sans-serif;
+    margin-left: 36px;
+    margin-top: 9px;
+    color: #ffff;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+    line-height: 19px;
+    letter-spacing: 2px;
+}
+
+.email-capture {
+    white-space: nowrap;
+    z-index: 9;
+    margin-top: 50px;
+    margin-left: 36px;
+}
+
+.text-field {
+    width: calc(100% + 30%);
+    height: 48px;
+    border-left: 3px solid #4fff4b;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    margin-top: 17px;
+    padding-left: 10px;
+    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+
+}
+
+button {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: #8257e5;
+    border: 0;
+    margin-top: 17px;
+    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+}
+
+.capture-legend {
+    font-family: 'League Spartan', sans-serif;
+    color: #A8A8A8;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.icon-msg {
+    filter: brightness(0) invert(1);
+    width: 25px;
+    height: 25px;
+}
+
+.guide-info-text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #8257E5;
+}
+
+.guide-info {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 36px;
+    width: 250px;
+    height: 24px;
+}
+
+.content-img {
+    width: 50%;
+    height: 100%;
+    background-image: url("./assets/read_news.jpg");
+    background-position: 60% 0px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
